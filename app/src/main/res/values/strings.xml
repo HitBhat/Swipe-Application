@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AppWithVideo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bio">
+
+        Linus Gabriel Sebastian is a Canadian entrepreneur, tech reviewer, and YouTuber from Surrey, British Columbia.\n
+        Starting his online career as a host for the technology channel of NCIX—the computer software and hardware \n
+        retailer—where he was an employee at the time, he is now the founder and CEO of ‘Linus Media Group’ that \n
+        runs three YouTube channels geared towards tech-based content. The channels, ‘LinusTechTips’, ‘Techquickie’ \n
+        and ‘Channel Super Fun’ have accumulated in aggregate 6.1 million subscribers and 1.36 billion views as of \n
+        June 2017. He was ranked 4th in the Inc. magazine’s list of the ‘Top 30 Power Players in Tech You Need to \n
+        Know’, published on July 21, 2015. As of March 2017, LinusTechTips was at 5th spot among the top one hundred \n
+        most viewed science and technology YouTube channels. In his article for Tubefilter, Inc.</string>
+</resources>

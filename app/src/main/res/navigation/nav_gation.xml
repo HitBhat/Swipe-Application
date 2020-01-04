@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_gation"
+    app:startDestination="@id/frag_vid1">
+
+    <fragment
+        android:id="@+id/frag_vid2"
+        android:name="com.example.appwithvideo.Frag_vid2"
+        tools:layout="@layout/vid_2"
+        android:label="Frag_vid2" >
+        <action
+            android:id="@+id/action_frag_vid2_to_frag_vid32"
+            app:destination="@id/frag_vid3" />
+        <action
+            android:id="@+id/action_frag_vid2_to_frag_vid1"
+            app:destination="@id/frag_vid1"
+            app:popUpTo="@+id/frag_vid1"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_frag_vid2_to_frag_about2"
+            app:destination="@id/frag_about" />
+        <action
+            android:id="@+id/action_frag_vid2_to_frag_subs2"
+            app:destination="@id/frag_subs" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag_vid3"
+        android:name="com.example.appwithvideo.Frag_vid3"
+        tools:layout="@layout/vid_3"
+        android:label="Frag_vid3" >
+        <action
+            android:id="@+id/action_frag_vid3_to_frag_vid42"
+            app:destination="@id/frag_vid4" />
+        <action
+            android:id="@+id/action_frag_vid3_to_frag_vid22"
+            app:destination="@id/frag_vid2"
+            app:popUpTo="@+id/frag_vid1" />
+        <action
+            android:id="@+id/action_frag_vid3_to_frag_about2"
+            app:destination="@id/frag_about" />
+        <action
+            android:id="@+id/action_frag_vid3_to_frag_subs2"
+            app:destination="@id/frag_subs" />
+        <action
+            android:id="@+id/action_frag_vid3_to_frag_vid1"
+            app:destination="@id/frag_vid1"
+            app:popUpTo="@+id/frag_vid1"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag_vid4"
+        android:name="com.example.appwithvideo.Frag_vid4"
+        tools:layout="@layout/vid_4"
+        android:label="Frag_vid4" >
+        <action
+            android:id="@+id/action_frag_vid4_to_frag_vid32"
+            app:destination="@id/frag_vid3" />
+        <action
+            android:id="@+id/action_frag_vid4_to_frag_about2"
+            app:destination="@id/frag_about" />
+        <action
+            android:id="@+id/action_frag_vid4_to_frag_subs2"
+            app:destination="@id/frag_subs" />
+        <action
+            android:id="@+id/action_frag_vid4_to_frag_vid1"
+            app:destination="@id/frag_vid1"
+            app:popUpTo="@+id/frag_vid1"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/frag_about"
+        android:name="com.example.appwithvideo.Frag_about"
+        tools:layout="@layout/about_frag"
+        android:label="Frag_about" />
+    <fragment
+        android:id="@+id/frag_subs"
+        android:name="com.example.appwithvideo.Frag_subs"
+        tools:layout="@layout/sub_cribe"
+        android:label="Frag_subs" />
+    <fragment
+        android:id="@+id/frag_vid1"
+        android:name="com.example.appwithvideo.Frag_vid1"
+        tools:layout="@layout/vid_1"
+        android:label="Frag_vid1" >
+        <action
+            android:id="@+id/action_frag_vid1_to_frag_vid2"
+            app:destination="@id/frag_vid2" />
+        <action
+            android:id="@+id/action_frag_vid1_to_frag_about"
+            app:destination="@id/frag_about" />
+        <action
+            android:id="@+id/action_frag_vid1_to_frag_subs"
+            app:destination="@id/frag_subs" />
+    </fragment>
+</navigation>
